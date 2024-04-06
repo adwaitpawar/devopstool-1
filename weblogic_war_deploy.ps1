@@ -1,7 +1,7 @@
 ﻿
 # Set the variables for the deployement
 #USE t3 INSTEAD OF http IF YOU HAVE NOT ENABLED THE TUNNELING. IF YOU WANT TO ENABLE TUNNELING IN SERVER>PROTOCALS>GENERAL>ENABLE TUNNELING
-$adminUrl = "http://3.82.244.240:7001"
+$adminUrl = "t3://3.82.244.240:7001"
 $username = "weblogic"
 $password = "weblogic123"
 $appPath = "/home/ec2-user/slave/workspace/demo-weblogic/target/devopstool.war"
